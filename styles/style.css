@@ -1,0 +1,27 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrosel.css");
+@import url("topicos.css");
+@import url("contact.css");
+@import url("footer.css");
+
+:root {
+    --main-background-color: #EBECEE;
+    --white: #ffffff;
+    --orange: #EB9B00;
+    --blue: #002F52;
+    --grey: #474646;
+    --light-grey: #858585;
+    --black: var(--black);
+    --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --principal-font: "Poppins";
+    --secundary-font: "Josefin Sans";
+}
+
+body {
+    background-color: var(--main-background-color);
+    font-family: var(--principal-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
